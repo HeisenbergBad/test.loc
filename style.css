@@ -1,0 +1,146 @@
+.new__set {
+    width: 700px;
+    padding: 12px;
+    border: 1px outset #8a8a8a;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.new__set-title {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+button, input[type=submit] {
+    padding: 3px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    margin: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+.new__set-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__block {
+    display: flex;
+    flex-basis: 33%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    user-select: none;
+}
+
+.content__block button {
+    margin-bottom: 10px;
+}
+
+.content__block > * {
+    margin-bottom: 5px;
+}
+
+.content__element {
+    display: flex;
+    align-items: center;
+}
+
+.content__element span {
+    font-size: 22px;
+    color: red;
+    cursor: pointer;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.new__set-form {
+    text-align: center;
+    display: none;
+}
+
+.fill__title {
+    margin: 20px 0 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.fill__content {
+    display: flex;
+    width: 1000px;
+    border: 1px outset #8a8a8a;
+    border-radius: 3px;
+    padding: 12px;
+}
+
+.fill__block {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    padding: 0 10px;
+}
+
+.fill__block:first-child {
+    flex-basis: 40%;
+}
+
+.fill__block > * {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.content__checkbox input[type=text] {
+    margin-left: 7px;
+    width: 80%;
+    padding: 5px;
+}
+
+form input[type=submit] {
+    margin-top: 10px;
+}
+
+.set {
+    display: flex;
+    width: 1000px;
+    padding: 12px;
+    border: 1px outset #8a8a8a;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.set:first-child > .set__block {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.set__block {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    border-right: 1px solid;
+    padding: 0 10px;
+    justify-content: start;
+}
+
+.set__block:last-child {
+    border: none;
+}
+
+.set__block:first-child {
+    flex-basis: 40%;
+}
+
+.set__element {
+    border-bottom: 1px solid;
+    padding: 5px 0;
+}
+
+.set__element:last-child {
+    border: none;
+}

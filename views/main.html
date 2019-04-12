@@ -1,0 +1,27 @@
+<a href="/show.php"><button>Посмотреть все наборы</button></a>
+
+<div class="new__set">
+    <div class="new__set-title">Создание нового набора</div>
+
+    <div class="new__set-content">
+        <div class="content__block" data-type="textarea">
+            <button>Добавить текстовое поле</button>
+        </div>
+        <div class="content__block" data-type="text">
+            <button>Добавить строковое поле</button>
+        </div>
+        <div class="content__block" data-type="checkbox">
+            <button>Добавить Checkbox</button>
+        </div>
+    </div>
+
+    <div class="new__set-form">
+        <form action="../actions/render_form.php" method="post">
+            <input type="hidden" name="textarea" value="0">
+            <input type="hidden" name="text" value="0">
+            <input type="hidden" name="checkbox" value="0">
+            <input type="submit" value="Перейти к заполнению">
+        </form>
+    </div>
+
+</div>
